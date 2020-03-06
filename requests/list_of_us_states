@@ -1,0 +1,9 @@
+[out:csv("name")];
+(
+rel[admin_level=4]["is_in:country_code"=US];
+
+);
+// print results
+out body;
+>;
+out skel qt;
